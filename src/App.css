@@ -1,0 +1,60 @@
+/* basic set up*/
+
+#root {
+    height: 100vh;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling quote box */
+
+#quote-box {
+    background-color: white;
+    width: 500px;
+    padding: 25px 35px;
+    border-radius: 4px;
+}
+
+#text {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#text i {
+    margin-right: 8px;
+}
+
+#author {
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+}
+
+.button {
+    color: white;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.button:hover {
+    opacity: 0.8
+}
